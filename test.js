@@ -1,28 +1,33 @@
-console.log('sup world')
-//use node server to run it
-//there is a global object instead of window object
-// console.log(global)
+//. How to export ./
+//METHOD 1
+// const add = (a,b) => a + b
+// const subtract = (a,b) => a - b
+// const multiply = (a,b) => a * b
+// const divide= (a,b) => a / b
 
-//has common core modluless that we will explore
-//commonjs modules used instead of es6 modules 
-//imports
-const os = require("os")
-const path =  require('path')
-const math = require('./math')
-const {subtract, multiply, divide, add} = require('./math')
+// module.exports = {add, subtract, multiply, divide}
 
-console.log(math.add(2,5))
-console.log(subtract(10,5))
-console.log(multiply(10,5))
-console.log(divide(10,5))
+//Method 2
+exports.add = (a,b) => a + b
+exports.subtract = (a,b) => a - b
+exports.multiply = (a,b) => a * b
+exports.divide= (a,b) => a / b
 
+// you can either use module.exports or just straight away export
 
-console.log(math.add(2,5))
-console.log(subtract(10,5))
-console.log(multiply(10,5))
-console.log(divide(10,5))
-console.log(math.add(2,5))
-console.log(subtract(10,5))
-console.log(multiply(10,5))
-console.log(divide(10,5))
+//. How to export ./
+//METHOD 1
+// const add = (a,b) => a + b
+// const subtract = (a,b) => a - b
+// const multiply = (a,b) => a * b
+// const divide= (a,b) => a / b
 
+// module.exports = {add, subtract, multiply, divide}
+
+//Method 2
+exports.add = (a,b) => a + b
+exports.subtract = (a,b) => a - b
+exports.multiply = (a,b) => a * b
+exports.divide= (a,b) => a / b
+
+// you can either use module.exports or just straight away export

@@ -17,34 +17,12 @@ console.log(multiply(10,5))
 console.log(divide(10,5))
 
 
+console.log(math.add(2,5))
+console.log(subtract(10,5))
+console.log(multiply(10,5))
+console.log(divide(10,5))
+console.log(math.add(2,5))
+console.log(subtract(10,5))
+console.log(multiply(10,5))
+console.log(divide(10,5))
 
-
-
-// console.log(os.type())
-// console.log(os.version())
-// console.log(os.homedir())
-
-// console.log(__dirname)
-// console.log(__filename)
-
-//* filename and diretory name and extension name *//
-// console.log(path.dirname(__filename))
-// console.log(path.basename(__filename))
-// console.log(path.extname(__filename)) //extension name
-// //* results *//
-// C:\Users\HP\Desktop\front end dev\nodejs -folder
-// C:\Users\HP\Desktop\front end dev\nodejs\server.js -file
-// C:\Users\HP\Desktop\front end dev\nodejs
-// server.js
-// .js -language extension
-
-// console.log(path.parse(__filename))
-//Result
-
-// {
-//     root: 'C:\\',
-//     dir: 'C:\\Users\\HP\\Desktop\\front end dev\\nodejs',
-//     base: 'server.js',
-//     ext: '.js',
-//     name: 'server'
-//   }  you get everthing

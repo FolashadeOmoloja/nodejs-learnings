@@ -3,7 +3,7 @@ console.log('sup world')
 //there is a global object instead of window object
 // console.log(global)
 
-//has common core modluless that we will explore
+//has common core modules that we will explore
 //commonjs modules used instead of es6 modules 
 //imports
 const os = require("os")
@@ -20,9 +20,9 @@ console.log(divide(10,5))
 
 
 
-// console.log(os.type())
-// console.log(os.version())
-// console.log(os.homedir())
+console.log(os.type())
+console.log(os.version())
+console.log(os.homedir())
 
 // console.log(__dirname)
 // console.log(__filename)

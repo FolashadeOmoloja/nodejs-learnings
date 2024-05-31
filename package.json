@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "validator": "^10.11.0"
+    "validator": "^10.11.0",
+    "yargs": "^17.7.2"
   }
 }

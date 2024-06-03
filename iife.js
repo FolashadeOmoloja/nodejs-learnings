@@ -1,9 +1,11 @@
-(function (){
+(function (message){
     const superHero = "Batman";
-    console.log(superHero)
-})();
+    console.log(message,superHero)
+})("Hello");
 
-(function (){
+(function (message){
     const superHero = "superman";
-    console.log(superHero)
-})();
+    console.log(message,superHero)
+})("Hi");
+
+//note semicolon is important
